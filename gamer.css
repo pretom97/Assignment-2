@@ -1,0 +1,63 @@
+/* common shared styles */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+/* header related styles */
+.header
+
+/* nav related styles */
+.nav-section {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 35px 200px;
+  background-color: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.logo-container img {
+  width: 40px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.G-color {
+  color: #ff42a5;
+}
+.nav-item-container {
+  width: 50%;
+}
+.nav-item-container ul {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-item-container li {
+  list-style: none;
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-item-container a {
+  text-decoration: none;
+}
+.nav-item-container ul .follow-btn {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px 25px;
+}
