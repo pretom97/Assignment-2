@@ -170,6 +170,12 @@ body {
   justify-content: center;
   margin-top: 80px;
 }
+.march-image {
+  position: relative;
+}
+.march-image-78 {
+  position: absolute;
+}
 .instant-play-content {
   width: 50%;
 }
@@ -198,14 +204,38 @@ body {
   align-content: center;
   gap: 20px;
 }
-.footer-content {
-}
+
 .footer-container .social-icon {
   color: white;
 }
 
 .lgo {
   width: 60px;
+}
+/* games related styles */
+.Games {
+  width: 80%;
+  height: 30vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 30px;
+}
+.games-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-right: 20px;
+  margin: 15px 0px;
+}
+
+.games-icons:hover {
+  border: 2px solid #ff42a5;
+  border-radius: 50px;
+  color: #ff42a5;
 }
 
 @media screen and (max-width: 576px) {
